@@ -8,7 +8,7 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
-/* basic elements */
+/* basic elements 
 html {
 	margin: 0;
 	padding: 0;
@@ -48,9 +48,9 @@ a:hover, a:focus, a:active {
 abbr {
 	border-bottom: none;
 	}
+*/
 
-
-/* specific divs */
+/* specific divs 
 .page-wrapper {
 	background: url(zen-bg.jpg) no-repeat top left;
 	padding: 0 175px 0 110px;
@@ -192,3 +192,102 @@ footer a:link, footer a:visited {
 	width: 148px;
 	height: 110px;
 	}
+	*/
+	
+
+h1 {
+	text-align:center;
+	font-family: 'Times New Roman', Times, serif;
+	color:;
+	}
+	
+h2 {
+	font-size: 95%;
+	text-align:center;
+	margin-top:-18px;
+	color:#7d756b;
+	font-style:italic;
+}	
+
+h3 {
+	color:#7d756b;
+}
+
+.summary {
+	font-style:italic;
+	width:240px;
+	float: left;
+	text-align:center;
+	margin-right:40px;
+	color:#7d756b;
+	background-color:#fefbf7;
+}
+
+body {
+	background-color:#fcf5eb;
+}
+
+.preamble {
+	margin:0 auto;
+	color:#7d756b;
+	background-color:#fbefdf;
+	border-radius:10px;
+	padding:10px;
+	width:1000px;
+	margin-bottom:10px;
+}
+
+#zen-supporting {
+	margin:0 auto;
+	width:1000px;
+	clear:both;
+	
+}
+
+a:link {
+	color:#8a8279;
+}
+
+
+.wrapper {
+	clear:both;
+	background-color:#bebab5;
+	overflow:hidden;
+
+}
+
+.design-selection {
+	width:800px;
+	float:left;
+}
+
+.zen-resources {
+	float:left;
+}
+
+.design-archives {
+	float: left;
+	width:700px;
+}
+
+.explanation {
+	background-color:#fbefdf;
+	border-radius:10px;
+	padding:10px; 
+	margin-bottom: 10px;
+	
+}
+
+.participation {
+	background-color:#fbefdf;
+	border-radius:10px;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.benefits {
+	background-color:#fbefdf;
+	border-radius:10px;
+	padding:10px;
+	margin-bottom:10px;
+}
